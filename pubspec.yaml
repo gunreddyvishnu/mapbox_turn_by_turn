@@ -1,0 +1,84 @@
+name: mapbox_turn_by_turn
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter_google_places_hoc081098:
+  google_maps_flutter:
+  google_api_headers:
+  lottie:
+  google_maps_webservice:
+  google_place:
+  syncfusion_flutter_barcodes:
+  geolocator:
+  curved_navigation_bar:
+  slide_to_act:
+  latlng:
+  url_launcher:
+  qr_code_scanner:
+  flutter_svg:
+  cached_network_image:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  mapbox_search:
+  # flutter_mapbox_nav:
+  flutter_mapbox_nav:
+    path: ./flutter_mapbox_nav-0.1.5
+  # sharedPreferences:
+  # flutter_mapbox_navigation:
+  #   git:
+  #     url: https://github.com/eopeter/flutter_mapbox_navigation.git
+  shared_preferences: ^2.0.13
+  flutter_native_splash: ^2.0.4
+  location: ^4.3.0
+  google_fonts: ^2.3.1
+  flutter_dotenv: ^5.0.2
+  dio: ^4.0.4
+  mapbox_gl: ^0.15.0
+  intl: ^0.17.0
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_native_splash:
+  color: "#3F51B5"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icon/
+    - assets/image/
+    - assets/images/
+    - assets/config/
+
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
